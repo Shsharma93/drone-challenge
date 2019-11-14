@@ -1,0 +1,64 @@
+.container {
+  width: 75%;
+  background: #ffdbb5;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  margin: 1rem auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 3rem;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin: 0 auto;
+}
+
+.btn {
+  height: 3rem;
+  width: 20rem;
+  background: #ff715b;
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 3rem auto 0rem;
+}
+
+.error {
+  margin: 0.5rem 2rem;
+  color: red;
+}
+
+.drone {
+  width: 95%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    height: 3rem;
+    width: 15rem;
+  }
+}

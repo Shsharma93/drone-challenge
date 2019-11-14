@@ -1,0 +1,30 @@
+.container {
+  width: 45%;
+  border: 2px solid #ff715b;
+}
+h3 {
+  text-align: center;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icons img {
+  width: 30%;
+  margin: 1rem;
+}
+
+.score {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
